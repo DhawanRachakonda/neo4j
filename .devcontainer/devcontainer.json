@@ -1,0 +1,16 @@
+{
+    "name": "Frontend Masters Sample",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [7474, 7473, 7687],
+    "settings": {
+      "workbench.colorTheme": "Night Owl",
+      // "workbench.colorTheme": "Hot Dog Stand",
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      // "somekittens.hot-dog-stand",
+      "sdras.night-owl",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+}
